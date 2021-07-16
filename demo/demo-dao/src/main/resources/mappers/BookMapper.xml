@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mybatis.mapper.BookMapper">
+
+    <select id="findAll" resultType="com.example.demo.mybatis.entity.BookDTO">
+        SELECT * FROM tb_book
+    </select>
+    <select id="findById" resultType="com.example.demo.mybatis.entity.BookDTO">
+
+
+    </select>
+
+    <select id="findByName" resultType="com.example.demo.mybatis.entity.BookDTO">
+
+
+    </select>
+
+</mapper>

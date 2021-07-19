@@ -19,4 +19,6 @@ public class BaseDTO {
     private Data updateDate;
 
     private ValidFlagEnum validFlag;
+
+
 }
